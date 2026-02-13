@@ -1,8 +1,30 @@
-flask
-numpy
-pandas
-scikit-learn
-joblib
-streamlit
-plotly
-openpyxl
+# ============================================================
+# REQUIREMENTS.TXT - Dépendances Python
+# ============================================================
+# Liste des bibliothèques requises pour l'application Streamlit
+# de prédiction de churn télécom
+# 
+# Installation: pip install -r requirements.txt
+# ============================================================
+
+# Framework principal
+streamlit==1.31.1
+
+# Manipulation de données
+pandas==2.1.4
+numpy==1.26.3
+
+# Machine Learning
+scikit-learn==1.4.0
+joblib==1.3.2
+
+# Visualisations interactives
+plotly==5.18.0
+
+# Lecture de fichiers Excel
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Utilitaires
+python-dateutil==2.8.2
+pytz==2023.3

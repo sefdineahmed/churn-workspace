@@ -1,0 +1,105 @@
+# ============================================================
+# CONFIGURATION STREAMLIT
+# ============================================================
+# Fichier de configuration pour personnaliser l'apparence
+# et le comportement de l'application Streamlit
+# 
+# Emplacement: .streamlit/config.toml
+# ============================================================
+
+# ------------------------------------------------------------
+# THÈME VISUEL
+# ------------------------------------------------------------
+[theme]
+# Couleur principale (boutons, liens, accents)
+primaryColor = "#667eea"
+
+# Couleur de fond de la page
+backgroundColor = "#ffffff"
+
+# Couleur de fond secondaire (sidebar, zones)
+secondaryBackgroundColor = "#f5f5f5"
+
+# Couleur du texte
+textColor = "#262730"
+
+# Police de caractères
+# Options: "sans serif", "serif", "monospace"
+font = "sans serif"
+
+# ------------------------------------------------------------
+# CONFIGURATION SERVEUR
+# ------------------------------------------------------------
+[server]
+# Port du serveur (par défaut: 8501)
+port = 8501
+
+# Taille maximale d'upload en MB (par défaut: 200)
+maxUploadSize = 200
+
+# Activer la protection XSRF
+enableXsrfProtection = true
+
+# Activer CORS (Cross-Origin Resource Sharing)
+enableCORS = false
+
+# Mode headless (sans interface graphique)
+# Utile pour le déploiement en production
+headless = false
+
+# ------------------------------------------------------------
+# NAVIGATEUR
+# ------------------------------------------------------------
+[browser]
+# Collecter les statistiques d'usage
+gatherUsageStats = false
+
+# Ouvrir automatiquement le navigateur au démarrage
+# true en développement, false en production
+serverAddress = "localhost"
+
+# ------------------------------------------------------------
+# LOGGER (JOURNALISATION)
+# ------------------------------------------------------------
+[logger]
+# Niveau de log: "error", "warning", "info", "debug"
+level = "info"
+
+# Format du message de log
+messageFormat = "%(asctime)s %(message)s"
+
+# ------------------------------------------------------------
+# CLIENT
+# ------------------------------------------------------------
+[client]
+# Afficher la toolbar en mode développement
+toolbarMode = "auto"
+
+# Afficher les erreurs en détail
+showErrorDetails = true
+
+# ------------------------------------------------------------
+# RUNNER (EXÉCUTION)
+# ------------------------------------------------------------
+[runner]
+# Réexécuter automatiquement quand le code change
+magicEnabled = true
+
+# Installer les modules pip automatiquement
+installTracer = false
+
+# Fixer la graine aléatoire pour la reproductibilité
+fixMatplotlib = true
+
+# ------------------------------------------------------------
+# DÉPRÉCIATION
+# ------------------------------------------------------------
+[deprecation]
+# Afficher les avertissements de dépréciation
+showPyplotGlobalUse = false
+
+# ------------------------------------------------------------
+# MAPBOX (POUR LES CARTES)
+# ------------------------------------------------------------
+# [mapbox]
+# token = "votre_token_mapbox_ici"
