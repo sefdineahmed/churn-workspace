@@ -1,0 +1,4 @@
+age,tenure_months,monthly_charges,data_usage_gb,voice_minutes,support_calls,network_quality,payment_delay,auto_payment,contract_type
+25,2,80.0,50.0,1000,5,2,10,0,Monthly
+45,24,45.0,5.0,200,0,5,0,1,Two year
+60,12,65.0,20.0,500,1,4,0,1,One year
