@@ -25,7 +25,7 @@ model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
 features = joblib.load(features_path)
 
-THRESHOLD = 0.40  # Seuil optimisé pour augmenter le recall
+THRESHOLD = 0.50  # Seuil optimisé pour augmenter le recall
 
 # ============================================================
 # 3️⃣ FONCTION DE PRÉDICTION
