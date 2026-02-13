@@ -8,23 +8,23 @@
 # ============================================================
 
 # Framework principal
-streamlit==1.31.1
+streamlit
 
 # Manipulation de données
-pandas==2.1.4
-numpy==1.26.3
+pandas
+numpy
 
 # Machine Learning
-scikit-learn==1.4.0
-joblib==1.3.2
+scikit-learn
+joblib
 
 # Visualisations interactives
-plotly==5.18.0
+plotly
 
 # Lecture de fichiers Excel
-openpyxl==3.1.2
-xlsxwriter==3.1.9
+openpyxl
+xlsxwriter
 
 # Utilitaires
-python-dateutil==2.8.2
-pytz==2023.3
+python-dateutil
+pytz
