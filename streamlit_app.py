@@ -401,7 +401,7 @@ st.divider()
 
 with st.sidebar:
     # Logo et titre
-    st.image("https://via.placeholder.com/200x80/667eea/ffffff?text=Telecom+AI", 
+    st.image("logo.jpg", 
              use_container_width=True)
     
     st.title("⚙️ Paramètres")
