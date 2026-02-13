@@ -1,13 +1,3 @@
-"""
-================================================================================
-🚀 APPLICATION DE PRÉDICTION DU CHURN TÉLÉCOM - VERSION PROFESSIONNELLE
-================================================================================
-Auteur : Manus AI
-Description : Dashboard Streamlit pour la prédiction du churn client avec 
-              importation multiformat, formulaire individuel et recommandations.
-================================================================================
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
