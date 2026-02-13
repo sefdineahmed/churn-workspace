@@ -957,11 +957,11 @@ st.divider()
 st.markdown("""
 <div style='text-align: center; padding: 20px; background: #f5f5f5; border-radius: 10px; margin-top: 30px;'>
     <h3 style='color: #667eea;'>📞 Besoin d'Aide ?</h3>
-    <p>Contactez l'équipe Data Science: <a href='mailto:data@telecom.com'>data@telecom.com</a></p>
+    <p>Contactez l'équipe Data Science: <a href='mailto:sefdinecollab@gmail.com'>sefdinecollab@gmail.com</a></p>
     <p style='color: #666; margin-top: 10px;'>
         <small>
             © 2026 Telecom Analytics | Version 1.0.0<br>
-            Propulsé par Streamlit & Random Forest
+            Propulsé par Ahmed Sefdine
         </small>
     </p>
 </div>
