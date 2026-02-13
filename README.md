@@ -1,14 +1,14 @@
-# 📡 Telecom Churn Prediction Dashboard
+# Telecom Churn Prediction Dashboard
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 Description
+## Description
 
 Application web interactive de prédiction du churn (désabonnement) client dans le secteur des télécommunications. Cette solution utilise le Machine Learning pour identifier les clients à risque et fournir des recommandations personnalisées pour améliorer la rétention.
 
-### ✨ Fonctionnalités Principales
+### Fonctionnalités Principales
 
 - 🎯 **Prédiction Individuelle** : Analyse détaillée d'un client via formulaire interactif
 - 📊 **Prédiction Batch** : Traitement en masse de milliers de clients via fichier
@@ -17,7 +17,7 @@ Application web interactive de prédiction du churn (désabonnement) client dans
 - 📥 **Export Multi-formats** : Téléchargement des résultats (CSV, Excel, JSON)
 - 🎨 **Interface Moderne** : Design responsive et intuitif
 
-## 🚀 Démarrage Rapide
+## Démarrage Rapide
 
 ### Prérequis
 
@@ -52,7 +52,7 @@ streamlit run streamlit_app.py
 
 L'application s'ouvrira automatiquement dans votre navigateur à l'adresse `http://localhost:8501`
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 ```
 telecom-churn-prediction/
@@ -76,7 +76,7 @@ telecom-churn-prediction/
     └── deployment.md
 ```
 
-## 📊 Format des Données
+## Format des Données
 
 ### Colonnes Requises
 
@@ -122,7 +122,7 @@ age,tenure_months,monthly_charges,data_usage_gb,voice_minutes,support_calls,netw
 ]
 ```
 
-## 🎮 Guide d'Utilisation
+## Guide d'Utilisation
 
 ### Mode Prédiction Individuelle
 
@@ -144,7 +144,7 @@ age,tenure_months,monthly_charges,data_usage_gb,voice_minutes,support_calls,netw
 5. Visualisez les résultats globaux
 6. Téléchargez les résultats au format souhaité
 
-## 🌐 Déploiement sur Streamlit Cloud
+## Déploiement sur Streamlit Cloud
 
 ### Méthode Rapide
 
@@ -200,16 +200,16 @@ maxUploadSize = 200
 enableXsrfProtection = true
 ```
 
-## 🔒 Sécurité et Confidentialité
+## Sécurité et Confidentialité
 
 - ✅ Aucune donnée n'est stockée de manière permanente
 - ✅ Les fichiers uploadés sont supprimés après traitement
 - ✅ Utilisation de HTTPS sur Streamlit Cloud
 - ✅ Protection XSRF activée
 
-⚠️ **Important** : Ne pas committer de données sensibles sur GitHub !
+**Important** : Ne pas committer de données sensibles sur GitHub !
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 - **Streamlit** : Framework d'application web
 - **Pandas** : Manipulation de données
@@ -217,7 +217,7 @@ enableXsrfProtection = true
 - **Plotly** : Visualisations interactives
 - **Random Forest** : Algorithme de classification
 
-## 📈 Performances du Modèle
+## Performances du Modèle
 
 | Métrique | Valeur |
 |----------|--------|
@@ -226,7 +226,7 @@ enableXsrfProtection = true
 | **Recall** | ~87% |
 | **F1-Score** | ~85% |
 
-## 🤝 Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! Pour contribuer :
 
@@ -236,7 +236,7 @@ Les contributions sont les bienvenues ! Pour contribuer :
 4. Push vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrez une Pull Request
 
-## 📝 To-Do List
+## To-Do List
 
 - [ ] Ajouter l'authentification utilisateur
 - [ ] Intégrer une base de données pour l'historique
@@ -247,13 +247,13 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - [ ] Créer une API REST
 - [ ] Dashboard administrateur
 
-## 🐛 Problèmes Connus
+## Problèmes Connus
 
 - Les très gros fichiers (>200MB) peuvent prendre du temps à traiter
 - L'encodage UTF-8 est requis pour les fichiers CSV français
 - Excel (.xls) ancien format non supporté (utiliser .xlsx)
 
-## 📞 Support
+## Support
 
 Pour toute question ou problème :
 
@@ -261,29 +261,22 @@ Pour toute question ou problème :
 - 🐛 Issues : [GitHub Issues](https://github.com/votre-username/telecom-churn-prediction/issues)
 - 📖 Docs : [Wiki du Projet](https://github.com/votre-username/telecom-churn-prediction/wiki)
 
-## 📄 Licence
+## Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-## 👨‍💻 Auteur
+## Auteur
 
 **Votre Nom**
 - GitHub : [@votre-username](https://github.com/votre-username)
 - LinkedIn : [Votre Profil](https://linkedin.com/in/votre-profil)
 - Email : votre.email@example.com
 
-## 🙏 Remerciements
+## Remerciements
 
 - L'équipe Streamlit pour leur excellent framework
 - La communauté Scikit-learn
 - Tous les contributeurs du projet
 
 ---
-
-<div align="center">
-
-**Développé avec ❤️ pour améliorer la rétention client**
-
-[⭐ Star ce projet](https://github.com/votre-username/telecom-churn-prediction) si vous le trouvez utile !
-
 </div>
