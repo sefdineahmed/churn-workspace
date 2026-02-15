@@ -253,14 +253,6 @@ Les contributions sont les bienvenues ! Pour contribuer :
 - L'encodage UTF-8 est requis pour les fichiers CSV français
 - Excel (.xls) ancien format non supporté (utiliser .xlsx)
 
-## Support
-
-Pour toute question ou problème :
-
-- 📧 Email : data@telecom.com
-- 🐛 Issues : [GitHub Issues](https://github.com/votre-username/telecom-churn-prediction/issues)
-- 📖 Docs : [Wiki du Projet](https://github.com/votre-username/telecom-churn-prediction/wiki)
-
 ## Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
@@ -268,8 +260,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## Auteur
 
 **Votre Nom**
-- GitHub : [@votre-username](https://github.com/votre-username)
-- LinkedIn : [Votre Profil](https://linkedin.com/in/votre-profil)
+- GitHub : [@votre-username](https://github.com/sefdineahmed)
+- LinkedIn : [Votre Profil](https://linkedin.com/in/sefdineahmed)
 - Email : votre.email@example.com
 
 ## Remerciements
