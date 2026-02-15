@@ -260,9 +260,9 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## Auteur
 
 **Votre Nom**
-- GitHub : [@votre-username](https://github.com/sefdineahmed)
-- LinkedIn : [Votre Profil](https://linkedin.com/in/sefdineahmed)
-- Email : votre.email@example.com
+- GitHub : [@sefdineahmed](https://github.com/sefdineahmed)
+- LinkedIn : [sefdineahmed](https://linkedin.com/in/sefdineahmed)
+- Email : sefdinecollab@gmail.com
 
 ## Remerciements
 
